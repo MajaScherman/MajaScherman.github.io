@@ -1,10 +1,13 @@
 html {
     position: relative;
     min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 /*Color themes #FFF2E7 #D0CABF #B9B1A8 #DE8642 #4B4D52*/
 body {
-    background-color: #fff2e7;
+    background-color: #D0CABF;
     margin: 0 0 60px; /* bottom = footer height */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.1em;
@@ -21,6 +24,12 @@ body {
 #body{
     padding: 10px;
     padding-bottom: 60px;
+    background-color: #FFF2E7;
+    width: 50%; 
+     
+    margin-right: auto;
+    margin-left: auto; 
+    
 }
 /*
 #footer{
@@ -48,11 +57,17 @@ header {
     text-align: center;
     color: #fdf5c9;
     width: 100%;
+    position: relative;
+    
+    background-image: url("keyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 footer {
     background: #4B4D52;
-    height: 60px;
+    height: 70px;
     text-align: center;
     color: #DE8642;
     width: 100%;
@@ -61,6 +76,8 @@ footer {
     bottom: 0;
     left: 0;
     padding: 10px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 
@@ -70,28 +87,74 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    color: #FFF2E7;
-    font-size: 3 p;
+    color: #4B4D52;
+    font-size: 300%;
     margin: 5px;
+    text-shadow:2px 2px #B9B1A8;
 }
 
 h2 {
     color: #DE8642;
-    font-size: 2 p;
+    font-size: 200%;
+    text-shadow:2px 2px #4B4D52;
 }
 
 h3 {
-    color: #6b3e26;
-    font-size: 1 p;
+    color: #DE8642;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+#github{
+    clear: left;
+    overflow: auto;
+    left: 50%;
+    right: 25%;
+
+}
+.col-1{
+    float: left;
+    width: 50%;
+}
+.col-2{
+    float: left;
+    width: 50%;
+}
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contact-text {
+    color: #DE8642;
+}
+#contact {
+    
 }
 
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #DE8642;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #DE8642;
+}
 
  p { 
-     text-align: center;
-     width: 50%; 
-     margin-right: auto;
-     margin-left: auto; 
+     
 
  } 
 
