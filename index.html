@@ -23,26 +23,68 @@
 		
 		<p>
 			<h3>Welcome</h3>
-			Welcome to my page, I am glad you found your way here. <br>
-			I am Maja Scherman and this is my portfolio.
-		</p>
-		<p>
-			<h3>About me</h3>
-			I am a computer and security engineer, a programmer, a software developer but foremost a sociable woman who loves people and making things work. 
-			Currently I am doing my master studies at Lund University and will recieve a degree called <em> Master of Science and Engineering in Computer Science and Engineering.</em>
-			<br>
+			<img src="images/maja.JPG" alt="picture of me riding a ferris wheel" align="right" width=200px />
+			Welcome to my page, I am glad you found your way here, I hope you will find this page useful. <br> <br>
+			If you are interested in me, feel free to contact me.
+			
 
-			I have spent much of my time studying, both engineering and language studies in Japanese, concurrently. I have finally reached a level of Japanese where I can call myself fluent, and I use it every day. <br>
-			<br>
-			So what do I spend my time doing? Well I do a lot of things. Either I am working on my next project, or I am away at the gym training, hanging out with my friends or learning something new and cool!
-
+			
+			
 		</p>
 
+		<div id="about-me-wrapper">
+			<p>
+				<h3>About me</h3>
+				I am a computer and security engineer, a programmer, a software developer but foremost a sociable woman who loves people and making things work. 
+				Currently I am doing my master studies at Lund University and will recieve a degree called <em> Master of Science and Engineering in Computer Science and Engineering.</em>
+				From the autumn 2016 I will do exchange studies at Keio University in Japan during one year and graduate right afterwards (about the summer 2017).
+				<br>
+
+				I have spent much of my time studying, both engineering and language studies in Japanese, concurrently. I have finally reached a level of Japanese where I can call myself fluent, and I use it every day. I love traveling to Japan. <br>
+				<br>
+				So what do I spend my time doing? Well I do a lot of things. Either I am working on my next project, or I am away at the gym training, hanging out with my friends or learning something new and cool!
+
+			</p>
+		</div>
+
+		<div id="image-wrapper">
+			
+		</div>
+
 		<p>
-			This page will be updated when I find some spare time! Thank you for your visit, I'll catch you later! Send me an email if you are interested!
+			<h3>Programming Projects</h3>
+			I have written several programs in several different languages, both for fun and in school. Here I will provide introduction and links to some of the github repositorys where you can check the projects out! There is more to be found at github, but I will present some repositories in different fields here.
+
+			<h4>Compression algorithm - MATLAB</h4>
+			<a href="https://github.com/maya039/InformationTheory/blob/master/LZW.m" alt="https://github.com/maya039/InformationTheory/blob/master/LZW.m"> LZW.m </a>
+			This is a matlab function which compresses an input file using the Lempel-Ziv-Welch (LZW) algorithm. The LZW algorithm is widely used today and can for an instance be found in the Unix file compression utility compress, and it is also used in the GIF image format. This is my implementation written to understand compression algorithms.
+
+			<h4>Correlation Attack - Java</h4>
+			<a href="https://github.com/maya039/correlationAttack" alt="https://github.com/maya039/correlationAttack">Correlation Attack</a>
+			This is a implementation of a correlation attack on a steam chipher. It attacks a given keysteam generator made by three LFSR's (Linear Feedback Shift Register) with given feedback polynomials and outputs the private key. The key consists of the initial states of these three LFSR's. <br>
+			Correlation attacks is the most important class of attacks on stream chiphers. Stream chiphers are commonly used for symmetric encryption. I believe that understanding cryptology is very important for a security mindset as an engineer.
+
+			<h4>Database - MS SQL</h4>
+			<a href="https://github.com/maya039/airline" alt="https://github.com/maya039/airline">Airline database</a>
+			Here I have designed and built a database for an airline company. It is complete with tables I would believe suitible for an airline company, with information insertable and several queries of interest for using the system. In this project I have explored the complexity in designing databases.
+
+			<h4>Webshop - Vulnerable and Secured - PHP openSQL HTML CSS javascript</h4>
+			<a href="https://github.com/maya039/webshop" alt="https://github.com/maya039/webshop">Webshop</a>
+			This is a ploy webshop. It is both attacked with several common attacks and secured against it. The webshop has two branches, one vulnerable and one secured. There can also be found some scripts for attacking the site. Doing this webshop have made me understand some of the difficulties with webdevelopement in a security perspective.
+
+			<h4>Flow Problem Algorithm - Java</h4>
+			<a href="https://github.com/maya039/FlowProblem" alt="https://github.com/maya039/FlowProblem">FlowProblem</a>
+			This algorithm is a solution to the maximum flow minimum cut problem. The problem is to calculate how much flow that can be pushed through a graph. A practical example is to calculate the maximum capacity of a rail network.
+		</p>
+
+		<p>
+			<h3>Thank you</h3>
+			Thank you for your visit, I'll catch you later! Don't forget to send me an email, or add me on LinkedIn or GitHub!
+
 		</p>
 	</div>
 	</body>
+	<div class="picture"></div>
 
 	<footer>
 		<div id="footer">
@@ -53,16 +95,28 @@
 				</div>
 				<div class="grid">
 					<div class="col-1">
-						<span class="mega-octicon octicon-mail"></span>
-					<a href="mailto:maya039.git@gmail.com" title="maya039.git@gmail.com">
+						
+					<a href="mailto:maya039.git@gmail.com" title="maya039.git@gmail.com" alt="email link" >
+						<span class="mega-octicon octicon-mail" alt="email icon"></span>
 							<div class="contact-text">
 							 maya039.git@gmail.com
 							</div>
 						</a>
 					</div>
-
 					<div class="col-2">
-						<span class="mega-octicon octicon-mark-github"></span>						<a href="https://github.com/maya039" title="https://github.com/maya039">
+						
+					<a href="https://se.linkedin.com/in/maja-scherman-551923b5" title="https://se.linkedin.com/in/maja-scherman-551923b5">
+						<img src="./In-2C-34px-R.png" alt="LinkedIn logo">
+							<div class="contact-text">
+							 LinkedIn
+							</div>
+						</a>
+							
+					</div>
+
+					<div class="col-3">						
+						<a href="https://github.com/maya039" title="https://github.com/maya039" alt="github link">
+							<span class="mega-octicon octicon-mark-github" alt="Github logo" ></span>
 							<div class="contact-text">github.com/maya039
 							</div>
 						</a>

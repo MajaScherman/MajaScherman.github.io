@@ -27,6 +27,13 @@ body {
     margin-left: auto; 
     
 }
+.about-me-wrapper{
+  float: left;
+}
+.image-wrapper{
+  float: left;
+}
+
 .module {
     background-image: url("keyboard.jpg");
     background-size: cover;
@@ -140,14 +147,28 @@ h3 {
     padding: 0px;
     margin: 0px;
 }
+h4 {
+    color: #DE8642;
+    font-size: 100%;
+    padding: 0px;
+    margin-bottom: 0em;
+    margin-top: 1em;
+    text-align: left;
+
+}
 
 .col-1{
     float: left;
-    width: 50%;
+    width: 33%;
 }
 .col-2{
     float: left;
-    width: 50%;
+    width: 33%;
+}
+.col-3{
+  float: left;
+    width: 33%;
+}
 }
 .grid:after {
   content: "";
@@ -164,10 +185,12 @@ h3 {
 
 a:link {
     text-decoration: none;
+    color: #DE8642;
 }
 
 a:visited {
     text-decoration: none;
+    color: #DE8642;
 }
 
 a:hover {
