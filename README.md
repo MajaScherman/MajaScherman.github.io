@@ -1,2 +1,2 @@
-# maya039.github.io
+# MajaScherman.github.io
 Portfolio type homepage
